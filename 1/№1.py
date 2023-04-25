@@ -2,8 +2,7 @@
 # 123 -> 6 (1 + 2 + 3)
 # 100 -> 1 (1 + 0 + 0)
 
-number = input("Введите число: ")
-number = int(number)
+number = int(input("Введите число: "))
 
 a = number % 10
 b = number % 100 // 10
