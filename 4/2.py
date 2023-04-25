@@ -20,8 +20,8 @@ for i in range(0, num):
 
 print(list)    
 
-sum_berry = []
+berry = []
 
 for i in range(len(list) - 1):
-        sum_berry.append(list[i] + list[i-1] + list[i+1])
-print(max(sum_berry))
+        berry.append(list[i] + list[i-1] + list[i+1])
+print(max(berry))
